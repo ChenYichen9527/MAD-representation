@@ -10,10 +10,10 @@ This is the official Pytorch implementation of the paper MAD: Motion and Appeara
 
 
 # Installation
-##Conda
+## Conda
     conda create -y -n mad python=3.9 
     conda activate mad
-	conda install --file requirements.txt
+    conda install --file requirements.txt
 
 ## Required Data
 ### Download
