@@ -1,4 +1,4 @@
-# MAD-Motion-and-Appearance-Decoupling-representation-for-Event-Cameras
+# MAD: Motion and Appearance Decoupling representation for Event Cameras
 
 
 <img src ='imgs/framework.png'  >
