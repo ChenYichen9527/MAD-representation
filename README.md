@@ -5,8 +5,11 @@
 This is the official Pytorch implementation of the paper MAD: Motion and Appearance Decoupling representation for  Event Cameras.
 # Visualization on different tasks
 ## Object Detection
+gif
 ## Semantic Segmentation
+gif
 ## Human Pose Estimation
+gif
 
 
 # Installation
