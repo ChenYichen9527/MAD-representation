@@ -1,7 +1,7 @@
 # MAD-Motion-and-Appearance-Decoupling-representation-for-Event-Cameras
 
 
-<img src ='imgs/framework.png' align='middle' width='80%'  >
+<img src ='imgs/framework.png'  >
 This is the official Pytorch implementation of the paper MAD: Motion and Appearance Decoupling representation for  Event Cameras.
 # Visualization on different tasks
 ## Object Detection
