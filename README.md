@@ -67,6 +67,6 @@ The following are the results of our method on different tasks.
 ## Human Pose Estimation
 
 
-<img src ='imgs/human_pose_est/hand.gif' a width='25%'  ><img src ='imgs/human_pose_est/leg.gif'  width='25%'  ><img src ='imgs/human_pose_est/walk.gif'  width='25%'  ><img src ='imgs/human_pose_est/jump.gif'  width='25%'  >
+<img src ='imgs/human_pose_est/hand.gif'  width='25%'  ><img src ='imgs/human_pose_est/leg.gif'  width='25%'  ><img src ='imgs/human_pose_est/walk.gif'  width='25%'  ><img src ='imgs/human_pose_est/jump.gif'  width='25%'  >
 <span style="margin-left: 60px;margin-right: 110px">“Leftarm abduction” </span><span style="margin-right: 90px;">“Side kick forwards left”</span><span style="margin-right: 150px;">“Walking 3.5 km/h”</span><span style="margin-right: 90px;">“Star jumps” 
 
