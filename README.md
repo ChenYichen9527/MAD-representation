@@ -1,23 +1,16 @@
 # MAD: Motion and Appearance Decoupling representation for Event Cameras
 
-
-<img src ='imgs/framework.png'  >
+<center class="half">
+<img src ='imgs/framework.png' align='middle' width='90%'  >
+</center>
 This is the official Pytorch implementation of the paper MAD: Motion and Appearance Decoupling representation for  Event Cameras.
-
-# Visualization on different tasks
-## Object Detection
-gif
-## Semantic Segmentation
-gif
-## Human Pose Estimation
-gif
 
 
 # Installation
-## Conda
+##Conda
     conda create -y -n mad python=3.9 
     conda activate mad
-    conda install --file requirements.txt
+	conda install --file requirements.txt
 
 ## Required Data
 ### Download
@@ -50,10 +43,30 @@ For example, to preprocess a 1mpx dataset, you can run the following code:
 Coming soon
 
 ## Test
-We currently provide MAD representation testing and visualization code. You can run the following code to visualize the results of MAD representation.
+We currently provide MAD representation (excluding downstream tasks) testing and visualization code. You can run the following code to visualize the results of MAD representation.
 
 	python pre_xx.py
 
 For example, to preprocess a 1mpx dataset, you can run the following code:
 
 	python pre_1mpx.py
+
+# Visualization on different tasks
+The following are the results of our method on different tasks.
+
+## Object Detection
+
+<img src ='imgs/object_detection/hebing.gif' >
+<span style="margin-left: 120px;margin-right: 240px">Motion tensor </span><span style="margin-right: 180px;">Detection result</span><span style="margin-right: 150px;">GT
+
+
+## Semantic Segmentation
+<img src ='imgs/hebing.gif' >
+<span style="margin-left: 80px;margin-right: 160px">Motion tensor </span><span style="margin-right: 160px;">APP tensor</span><span style="margin-right: 210px;">seg result</span><span style="margin-right: 90px;">GT 
+
+## Human Pose Estimation
+
+
+<img src ='imgs/human_pose_est/hand.gif' a width='25%'  ><img src ='imgs/human_pose_est/leg.gif'  width='25%'  ><img src ='imgs/human_pose_est/walk.gif'  width='25%'  ><img src ='imgs/human_pose_est/jump.gif'  width='25%'  >
+<span style="margin-left: 60px;margin-right: 110px">“Leftarm abduction” </span><span style="margin-right: 90px;">“Side kick forwards left”</span><span style="margin-right: 150px;">“Walking 3.5 km/h”</span><span style="margin-right: 90px;">“Star jumps” 
+
