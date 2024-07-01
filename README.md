@@ -50,7 +50,7 @@ For example, to preprocess a 1mpx dataset, you can run the following code:
 Coming soon
 
 ## Test
-We currently provide MAD testing and visualization code. You can run the following code to visualize the results of MAD representation.
+We currently provide MAD representation testing and visualization code. You can run the following code to visualize the results of MAD representation.
 
 	python pre_xx.py
 
