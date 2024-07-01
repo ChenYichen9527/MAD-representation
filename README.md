@@ -6,9 +6,7 @@ This is the official Pytorch implementation of the paper MAD: Motion and Appeara
 
 # Visualization on different tasks
 ## Object Detection
-<p align="center">
-  <img src="imgs/test.gif" alt="" />
-</p>
+gif
 ## Semantic Segmentation
 gif
 ## Human Pose Estimation
