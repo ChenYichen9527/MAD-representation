@@ -7,6 +7,7 @@ This is the official Pytorch implementation of the paper MAD: Motion and Appeara
 
 
 # Installation
+We recommend using conda for environment setup:
 ## Conda
     conda create -y -n mad python=3.9 
     conda activate mad
