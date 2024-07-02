@@ -61,7 +61,7 @@ The following are the results of our method on different tasks.
 
 
 ## Semantic Segmentation
-<img src ='imgs/hebing.gif' >
+<img src ='imgs/seg_result.gif' >
 <span style="margin-left: 80px;margin-right: 160px">Motion tensor </span><span style="margin-right: 160px;">APP tensor</span><span style="margin-right: 210px;">seg result</span><span style="margin-right: 90px;">GT 
 
 ## Human Pose Estimation
