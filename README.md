@@ -79,6 +79,6 @@ This project has used code from the following projects:
 - [Back to Event Basics](https://github.com/tudelft/ssl_e2vid) for the contrast maximization loss
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for the detection PAFPN/head
 - [EventPointPose](https://github.com/MasterHow/EventPointPose) for the DHP19 dataset buliding
-- [Unet]([https://github.com/MasterHow/EventPointPose](https://github.com/milesial/Pytorch-UNet)) for the semantic segmentation head
+- [Unet](https://github.com/milesial/Pytorch-UNet) for the semantic segmentation head
 
 
