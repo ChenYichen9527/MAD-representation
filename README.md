@@ -74,6 +74,9 @@ From left to right: Motion tensor, Appearance tensor, Segmentation  result and G
 <img src ='imgs/human_pose_est/hand.gif' a width='25%'  ><img src ='imgs/human_pose_est/leg.gif'  width='25%'  ><img src ='imgs/human_pose_est/walk.gif'  width='25%'  ><img src ='imgs/human_pose_est/jump.gif'  width='25%'  >
 From left to right: Leftarm abduction, Side kick forwards left, Walking 3.5 km/h and Star jumps. In each action, blue represents the predicted result and red represents GT.
 
-
+## Code Acknowledgments
+This project has used code from the following projects:
+- [Back to Event Basics](https://github.com/tudelft/ssl_e2vid) for the contrast maximization loss
+- [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for the detection PAFPN/head
 
 
