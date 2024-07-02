@@ -56,7 +56,8 @@ The following are the results of our method on different tasks.
 
 ## Object Detection
 
-<img src ='imgs/object_detection/hebing.gif' >
+<img src ='imgs/object_detection/hebing.gif' >&nbsp;
+Motion tensor &nbsp;&nbsp;&nbsp;&nbsp; Detection result &nbsp;&nbsp;&nbsp;&nbsp; GT
 <span style="margin-left: 120px;margin-right: 240px">Motion tensor </span><span style="margin-right: 180px;">Detection result</span><span style="margin-right: 150px;">GT
 
 
