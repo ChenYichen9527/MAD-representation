@@ -61,10 +61,7 @@ def build(args):
                 lb_save_path_ = os.path.join(lb_save_path, name + '_lb' + str(idx) + '.npz')
                 if os.path.exists(ev_save_path_) and os.path.exists(lb_save_path_):
                     continue
-                # ev_save_path = os.path.join(r'/media/yons/新加卷/datasets/AOBnetDataset/moorea_2019-02-19_003_td_1525500000_1585500000/events','moorea_2019-02-19_003_td_1525500000_1585500000'+'_ev'+str(idx)+'.npz')
-                # lb_save_path = os.path.join(r'/media/yons/新加卷/datasets/AOBnetDataset/moorea_2019-02-19_003_td_1525500000_1585500000/labels','moorea_2019-02-19_003_td_1525500000_1585500000'+'_lb'+str(idx)+'.npz')
-                # label_t = box_videos.labels_ts[idx]
-                # label = box_videos.get_label_at_t(label_t)
+
                 try:
                     label_t = box_videos.labels_ts[idx]
                     label = box_videos.get_label_at_t(label_t)
@@ -75,9 +72,6 @@ def build(args):
                 event_videos.seek_time(label_t)
                 events = event_videos.load_delta_t(detT)
 
-                # x,y,t,p = events['x'],events['y'],events['t'],events['p']
-                # events = np.array([x,y,t,p]).transpose(1,0)
-                # x,y,w,h,cls,t = label['x'],label['y'],label['w'],label['h'],label['class_id'],label['t']
                 np.savez_compressed(lb_save_path_, lb=label)
                 np.savez_compressed(ev_save_path_, ev=events)
 
