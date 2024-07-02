@@ -43,8 +43,8 @@ For example, to preprocess a 1mpx dataset, you can run the following code:
 ## Train
 Coming soon
 
-## Test
-We currently provide MAD representation (excluding downstream tasks) testing and visualization code. You can run the following code to visualize the results of MAD representation.
+## Prediction
+We currently provide MAD representation (excluding downstream tasks) prediction and visualization code. You can run the following code to visualize the results of MAD representation.
 
 	python pre_xx.py -r path_to_orin_event_data -sr path_to_save_new_data
 
