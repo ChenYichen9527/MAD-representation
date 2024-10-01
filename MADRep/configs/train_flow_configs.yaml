@@ -1,0 +1,24 @@
+dataset:
+  name: "Prophesee"  # 7 classes
+  dataset_path: '/media/yons/G/dataset/new_gen4'
+  object_classes: ['pedestrian', 'two wheeler', 'car', 'truck', 'bus', 'traffic sign', 'traffic light']
+  depth: 18
+  height: 720
+  width: 1280
+  detT: 50000
+  num_bins: 5
+
+
+model_flow:
+    name: EVFlowNet # FireFlowNet/EVFlowNet
+    base_num_channels: 32
+    kernel_size: 3
+    mask_output: True
+
+train:
+  resize: [360,640]
+  downsample: 20 #20
+  epoch: 200
+  batch_size: 1
+  optimizer_type: 'adam'
+  lr: 0.0001
