@@ -37,7 +37,7 @@ For example, to preprocess a 1mpx dataset, you can run the following code:
 coming soon
 
 ## Train
-python MAD_Representation/train_flow.py
+python MAD_Rep/train_flow.py
 
 ## Prediction
 We currently provide MAD representation (excluding downstream tasks) prediction and visualization code. You can run the following code to visualize the results of MAD representation.
