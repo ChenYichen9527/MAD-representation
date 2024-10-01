@@ -34,11 +34,7 @@ For example, to preprocess a 1mpx dataset, you can run the following code:
 	python builddataset/build_1mpx.py
 
 ## Pre-trained Checkpoints for MAD representation
-| TASK                  | dataset_0 | dataset_1     |
-|-----------------------|-----------|---------------|
-| Object detection      |[ Gen 1](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/)| [ 1Mpx ](https://www.prophesee.ai/2020/11/24/automotive-megapixel-event-based-dataset/)          |
-| Semantic Segmentation | [ DDD17](https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub)      | [ DSEC-Semantic](https://dsec.ifi.uzh.ch/) |
-| Human Pose Estimation | [ DHP19](https://dsec.ifi.uzh.ch/)     | -             |
+coming soon
 
 ## Train
 Coming soon
