@@ -1,4 +1,4 @@
-# MAD: Motion and Appearance Decoupling representation for Event Cameras
+# Motion and Appearance Decoupling representation for Event Cameras
 
 <center class="half">
 <img src ='imgs/framework.png' align='middle' width='90%'  >
@@ -76,5 +76,6 @@ This project has used code from the following projects:
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for the detection PAFPN/head
 - [EventPointPose](https://github.com/MasterHow/EventPointPose) for the DHP19 dataset buliding
 - [Unet](https://github.com/milesial/Pytorch-UNet) for the semantic segmentation head
+
 
 
